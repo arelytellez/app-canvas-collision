@@ -1,0 +1,67 @@
+/* ==============================
+   FONDO GENERAL
+============================== */
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+}
+
+/* ==============================
+   CONTENEDOR PRINCIPAL
+============================== */
+.main-wrapper {
+    padding: 60px 20px;
+}
+
+/* ==============================
+   TÍTULO
+============================== */
+.title {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ==============================
+   TARJETA CENTRAL
+============================== */
+.custom-card {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    padding: 40px;
+    max-width: 1100px;
+    margin: auto;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+}
+
+/* ==============================
+   CANVAS
+============================== */
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    background: #000;
+    border-radius: 20px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+}
+
+/* ==============================
+   FOOTER
+============================== */
+footer {
+    background-color: #111;
+    font-size: 0.95rem;
+}
